@@ -1,0 +1,66 @@
+body {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  font-family: Arial;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nameLink {
+  color: red;
+}
+
+a:hover {
+  color: gray;
+  font-weight: bold;
+}
+
+.container {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h1 {
+  color: red;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.navbar {
+  margin-top: 20px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar span:hover {
+  color: red;
+}
+
+#logo {
+  font-weight: bolder;
+  font-size: 1.75em;
+}
+
+.foot_navbar {
+  flex-direction: column;
+}
